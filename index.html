@@ -97,6 +97,21 @@
         </div>
     </section>
 
+     <!-- calculator service provided -->
+     <section class="services" id="services">
+        <div class="max-width">
+
+            <h2 class="title">Use Calculator</h2>
+
+            <button onclick="window.open('https://bhabindradhami.github.io/Responsive-calculator/', '_blank')" 
+            style="padding: 10px 20px; font-size: 16px; display: block; margin: 0 auto;">
+            Click Here to Use
+            </button>
+
+            </div>
+        </div>
+    </section>
+
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
@@ -256,28 +271,30 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="mailto:bhabendradhami12@gmail.com" method="post" enctype="text/plain">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" name="name" placeholder="Name" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" name="email" placeholder="Email" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
                             <button type="submit">Send message</button>
                         </div>
                     </form>
                 </div>
+                
             </div>
         </div>
     </section>
